@@ -36,7 +36,7 @@ svd扩展，作业过难，而且要求是隐写方面的。作者无力解决
 
 随机几何存疑，题目描述均匀分布。这个均匀分布是表示概率服从均匀分布，还是类似高中生物那样的均匀分布：如图
 
-![image-20240627005137379](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627005137379.png)
+![Example Image](images/example.png)
 
 
 

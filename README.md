@@ -36,7 +36,7 @@ svd扩展，作业过难，而且要求是隐写方面的。作者无力解决
 
 随机几何存疑，题目描述均匀分布。这个均匀分布是表示概率服从均匀分布，还是类似高中生物那样的均匀分布：如图
 
-![Example Image](images/example.png)
+![Image](pictures/example.png)
 
 
 
@@ -82,74 +82,76 @@ svd扩展，作业过难，而且要求是隐写方面的。作者无力解决
 
 
 
+- 欢迎联系作者讨论问题、批评指正。QQ 1049922754
+
+
+
 
 
 ## 每次作业题目
 
 #### 第一次--你来我往之LFSR破译
 
-![image-20240627002156626](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002156626.png)
+![Image](pictures/LFSR.png)
 
 
 
 #### 第二次--SVD之去噪、水印、svd拓展
 
-![image-20240627002428789](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002428789.png)
+![Image](pictures/去噪.png)
 
-![image-20240627002452303](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002452303.png)
+![Image](pictures/水印.png)
 
-![image-20240627002522601](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002522601.png)
-
-
+![Image](pictures/扩展.png)
 
 #### 第三次--离散马尔科夫链
 
-![image-20240627002540204](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002540204.png)
+![Image](pictures/马尔科夫.png)
 
 #### 第四次--HMM（隐马尔科夫链）
 
-![image-20240627002606954](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002606954.png)
+![Image](pictures/HMM.png)
 
 
 
 #### 第五次--Bloom过滤器设计
 
-![image-20240627002701943](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002701943.png)
+![Image](pictures/bloom.png)
 
 
 
 #### 第六次--数论基础
 
-![image-20240627002949625](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627002949625.png)
+![Image](pictures/数论.png)
 
 #### 第七次--代数基础、利用生日悖论求解离散对数
 
-![image-20240627003039387](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627003039387.png)
+![Image](pictures/代数.png)
 
 ____
 
-![image-20240627003132031](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627003132031.png)
+![Image](pictures/生日悖论1.png)
 
-![image-20240627003142739](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627003142739.png)
+![Image](pictures/生日悖论2.png)
 
 #### 第八次--概率论
 
-![image-20240627003344562](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627003344562.png)
+![Image](pictures/概率论.png)
 
 
 
 #### 第九次--有限域
 
-![image-20240627003439409](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627003439409.png)
+![Image](pictures/有限域.png)
 
 
 
 #### 第十次--椭圆曲线
 
-![image-20240627003541691](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627003541691.png)
+![Image](pictures/椭圆曲线.png)
 
 
 
 #### 第十一次--随机几何
 
-![image-20240627003634718](C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20240627003634718.png)
+![Image](pictures/随机几何.png)

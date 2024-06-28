@@ -13,11 +13,11 @@ class Bloom:
     def __init__(self, length_of_bloom):
         self.vector = []
         self.length = length_of_bloom
-        self.hash_algorithm_list = ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'blake2b', 'blake2s', 'sha3_224']
+        self.hash_algorithm_list = ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'blake2b']
         for i in range(0, length_of_bloom):
             self.vector.append(0)
 
-    def SetValueWithCertainHashAlgorithm(self, csv_filename, algorithm):
+    def set_value_with_certain_hash_algorithm(self, csv_filename, algorithm):
         csvfile = open(csv_filename, mode='r')
         lines = csv.reader(csvfile)
 
@@ -30,9 +30,9 @@ class Bloom:
                 self.vector[index] = 1
 
 
-    def SetValue(self, csv_filename):
+    def set_value(self, csv_filename):
         for algorithm in self.hash_algorithm_list:
-            self.SetValueWithCertainHashAlgorithm(csv_filename=csv_filename, algorithm=algorithm)
+            self.set_value_with_certain_hash_algorithm(csv_filename=csv_filename, algorithm=algorithm)
 
 
 
@@ -75,9 +75,10 @@ class Bloom:
 
 if __name__ == '__main__':
     filename = 'dataset.csv'
-    length = 200000
+    length = 97065
     B = Bloom(length_of_bloom=length)
-    B.SetValue(csv_filename=filename)
-    print('length =', length)
+    B.set_value(csv_filename=filename)
+    print('length = ', length)
+    print('Hash函数个数(k) = ', len(B.hash_algorithm_list))
     B.verify(csv_filename=filename)
 
